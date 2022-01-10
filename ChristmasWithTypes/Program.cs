@@ -12,19 +12,14 @@ namespace ChristmasWithTypes
         
 
             //TODO set Santa's name to Kris Kringle
-            xmas.Santa = null;
-            string santasName = "Kris Kringle";
+            xmas.Santa = "Kris Kringle";
+    
 
             //TODO Insert 3 presents you would like for xmas.  They must be strings
             {
-                xmas.Presents = new string[3];
-                  
-            string presentOne =  "Iphone 13";
-            string presentTwo = "New Laptop";
-            string presentThree = "Earrings";
-
+                xmas.Presents = new string[3] { "iPhone 13", "New Laptop", "Earrings" };
+        
        
-            
             }
 
             //TODO Set the TreeHeight to 10
@@ -34,7 +29,7 @@ namespace ChristmasWithTypes
             Console.WriteLine($"This year christmas falls on {xmasDay}");
             Console.WriteLine($"\nOur tree will be {10} feet high");
             Console.WriteLine("\nHere are the presents we would like: \nIphone 13 \nNew Laptop \nEarrings");
-            Console.WriteLine($"\n We like to call Santa, {santasName}");
+            Console.WriteLine($"\n We like to call Santa, {xmas.Santa}");
         }
     }
 }
